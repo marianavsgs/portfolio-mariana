@@ -1,10 +1,10 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createHashRouter } from 'react-router-dom'
 import './App.css'
 import HomePage from './Pages/Home.jsx'
 import ProjectDetailPage from './Pages/ProjectDetail.jsx'
 import AppLayout from './AppLayout.jsx'
 
-const route = createBrowserRouter([
+const route = createHashRouter([
   {element: <AppLayout/>,
   children:[
     {index: true, element: <HomePage />},
