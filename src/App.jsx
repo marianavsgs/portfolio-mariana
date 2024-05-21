@@ -10,7 +10,7 @@ const route = createBrowserRouter([
     {index: true, element: <HomePage />},
     {path: ':projectId', element: <ProjectDetailPage />}
   ]}
-],{ basename: '/portfolio-mariana'} )
+])
 
 function App() {
   //const [count, setCount] = useState(0)
