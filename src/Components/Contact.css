@@ -1,0 +1,29 @@
+.contact {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    margin-left: 160px;
+}
+.contact #background{
+    background-color: #F1E2DD;
+}
+#social-media img{
+    width: 56px;
+    margin-right: 16px;
+}
+
+@media (max-width: 1024px) {
+    .contact {
+        margin: 160px 32px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact {
+        margin: 80px 24px;
+        height: auto;
+    }
+}
+

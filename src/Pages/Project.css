@@ -1,0 +1,160 @@
+.header-back {
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+    width: 100vw;
+}
+
+.backButton {
+    display: flex;
+    align-items: center;
+    padding: 16px 160px;
+    color: #33312E;
+}
+.backButton .icon {
+    padding-right: 8px;
+}
+
+
+.headerImg{
+    width: 100vw;
+    margin-top: 56px;
+    margin-bottom: 64px;
+    height: 75vh;
+    object-fit: cover;
+  }
+
+  .project-title {
+    margin: 0 160px;
+  }
+  
+  .flex {
+    display: flex; 
+    gap: 32px; 
+    margin: 48px 160px 88px 160px;
+  
+  }
+  .flex .card {
+    width: 50%;
+  }
+
+  .subtitle{
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  label {
+    font-size: 12px;
+  }
+  .date {
+    margin-top: 48px;
+  }
+  .full-blend {
+    box-shadow: 0 0 0 100vmax #F8F8F8;
+    clip-path: inset(0-100vmax);
+  }
+  .research {
+    margin: 0 160px;
+    background-color: #F8F8F8;
+    background-size: cover;
+    padding: 72px 0;
+  }
+  .research ul {
+    padding: 0 8px;
+  }
+  .research li {
+    margin: 28px 0 16px 0;
+  }
+  .quotes {
+    font-size: 14px;
+    color: #68655F;
+    font-style: italic;
+    margin: 12px 0;
+  
+  }
+  .info{
+    margin: 144px 0 144px 160px; 
+  }
+  .info img{
+    width: 100%;
+    padding-left: 40px;
+  }
+  .sketch img {
+    width: 100%;
+    padding: 0 160px;
+  }
+  .sketch {
+    margin-bottom: 72px;
+  }
+  .mockups {
+    margin: 88px 160px;
+
+  }
+  .mockups img {
+    height: 500px;
+    margin-right:24px ;
+    margin-bottom: 24px;
+  }
+  .conclusion {
+    margin-bottom: 144px;
+  }
+  .paragraph {
+    margin: 16px 0;
+  }
+
+  @media (max-width: 1024px) { 
+    .backButton {
+        padding: 16px 40px;
+    }
+    .project-title {
+        margin: 0 40px;
+    }
+    .flex {
+        margin: 40px;
+    }
+    .sketch img {
+        padding: 0 40px;
+    }
+    .mockups {
+        margin: 0px 40px;
+    
+    }
+  }
+
+  @media (max-width: 600px) {
+    .backButton {
+        padding: 16px 16px;
+    }
+    .headerImg{ 
+        height: 60vh;
+    }
+    .project-title {
+        margin: 0 16px;
+    }
+    .flex {
+        flex-direction: column;
+        margin: 40px 16px;
+    }
+    .flex .card {
+        width: 100%;
+    }
+    .sketch img {
+        padding: 0 16px;
+    }
+    .mockups {
+        margin: 0px 16px;
+    
+    }
+    .mockups img {
+        width: 100%;
+        height: auto;
+        margin-right:0px ;
+    }
+
+  }
+
+  
+  
+  
+  
+  
+  
