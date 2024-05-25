@@ -1,4 +1,4 @@
-import growthtrackerImg from './assets/Growthtracker.png'
+import growthtrackerImg from './assets/Growthtracke.png'
 import profileImg from './assets/profile.png'
 import storeImg from './assets/store.png'
 
